@@ -16,10 +16,10 @@ const SelectedSingers = (props)=>{
                     </p>
                     
                     {
-                        selected.map(selectedSinger => <li>{selectedSinger.name}</li>)
+                        selected.map(selectedSinger => <li key={selectedSinger.id}>{selectedSinger.name}</li>)
                     }
                     <p className="mt-4 mb-0 pb-0">Total Payment: ${totalPayment}</p>
-                    <a href="/details" className="cart btn me-2 mt-1">View Details</a>
+                    <a href="/details" className="selected btn me-2 mt-1">View Details</a>
                 </div>
             </div>
         </div>
