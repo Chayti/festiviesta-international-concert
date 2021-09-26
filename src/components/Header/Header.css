@@ -1,0 +1,28 @@
+/* header */
+.header{
+    background-color: rgba(240, 255, 240, 0.788);
+    color:crimson;
+    /* color: indianred; */
+}
+
+/* navbar */
+.navbar{
+    background-color: crimson;
+    display: flex;
+    justify-content: start;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    margin-left: 1.5em ;
+    padding: 5px;
+}
+.navbar a:hover{
+    background-color: rgba(240, 255, 240, 0.788);
+    border-radius: 5px;
+    color: crimson;
+    font-weight: bold;
+    margin-left: 1.2em;
+    transition: background-color 2s;
+}

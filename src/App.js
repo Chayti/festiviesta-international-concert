@@ -1,18 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
-import Singer from './components/singer';
-import { useState,useEffect } from 'react';
+import Header from './components/Header/Header';
+import Singers from './components/Singers/Singers';
 
 function App() {
-  const [singers,setSingers] = useState([]);
-  useEffect(()=>{
-    fetch('./singers.JSON')
-    .then(res=>res.json())
-    .then(data=>setSingers(data));
-  },[]);
+  
   return (
-    <div>
-      <Singer singers={singers}></Singer>
+    <div className="main-bg">
+      <div className="container">
+        
+        <div style={{height:'20px'}}></div>
+        <Header></Header>
+        <div style={{height:'20px'}}></div>
+        <Singers></Singers>
+        <div style={{height:'20px'}}></div>
+
+      </div>
     </div>
   );
 }
