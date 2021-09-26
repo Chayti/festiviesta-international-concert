@@ -6,7 +6,7 @@ const Header = () =>{
     return(
         <div className="pt-2 text-center rounded header">
             <div className="mb-4" style={{lineHeight:'25px'}}>
-                <h2 className="fw-bold">International FestiVista Concert</h2>
+                <h2 className="fw-bold">FestiVista International Concert</h2>
                 <p>Love Song! Love The Creatures!! Spread Happiness Around The World!!!</p>
             </div>
             

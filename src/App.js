@@ -9,8 +9,10 @@ function App() {
       <div className="container">
         
         <div style={{height:'20px'}}></div>
-        <Header></Header>
+        <Header></Header> 
+
         <div style={{height:'20px'}}></div>
+        
         <Singers></Singers>
         <div style={{height:'20px'}}></div>
 
