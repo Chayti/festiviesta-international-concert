@@ -39,4 +39,5 @@
 
 .main-bg{
   background-image: url('../src/images/concert.jpg');
+  background-size:100%;
 }

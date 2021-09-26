@@ -1,0 +1,30 @@
+.singer-bg{
+    background-color: rgba(205, 92, 92, 0.753);
+    color:beige;
+}
+.singer-bg h5{
+    color:darkred;
+}
+
+.cart, .social-icons a{
+    background-color: crimson;
+    color:rgba(240, 255, 240, 0.788);
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.social-icons a{
+    border-radius:50%;
+}
+
+.cart:hover{
+    background-color: rgba(240, 255, 240, 0.788);
+    border-radius: 5px;
+    color: crimson;
+    border:2px solid crimson;
+    margin-bottom: 0;
+}
+
+.icon{
+    background-color: crimson;
+}

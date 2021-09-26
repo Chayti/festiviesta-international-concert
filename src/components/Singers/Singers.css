@@ -1,0 +1,10 @@
+.singers-section{
+    background-color: rgba(240, 255, 240, 0.788);
+}
+
+.singer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+

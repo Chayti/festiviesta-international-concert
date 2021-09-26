@@ -2,14 +2,13 @@
 .header{
     background-color: rgba(240, 255, 240, 0.788);
     color:crimson;
-    /* color: indianred; */
 }
 
 /* navbar */
 .navbar{
     background-color: crimson;
     display: flex;
-    justify-content: start;
+    justify-content:flex-start;
 }
 .navbar a{
     text-decoration: none;
